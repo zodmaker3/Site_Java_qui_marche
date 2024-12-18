@@ -1,0 +1,24 @@
+.accordeon .titre {
+    background: lightgray;
+    padding: 10px;
+    cursor:pointer;
+    transition: background-color 0.3s;
+}
+.accordeon .titre:hover {
+    background: darkgrey;
+}
+.contenu {
+    padding: 0 10 px;
+    height: 0;
+    opacity:0;
+    overflow: hidden;
+    transition:opacity 0.5s ease, height 0.5 ease,visibility 0.5 ease,padding 0.5s ease;
+ 
+}
+.contenu-open{
+    height: 1rem;
+    visibility: visible;
+    opacity: 1;
+    padding: 10px 10px;
+    background-color: #c2b2b2;
+} 
